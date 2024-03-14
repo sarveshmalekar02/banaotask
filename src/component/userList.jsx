@@ -8,8 +8,8 @@ const UserList = ({ users, setSelectedUser }) => (
         {user.avatar ? (
           <div className="loader"></div>
         ) : (
-          <img src={user.avatar} alt="" className="userAvatar" /> {/* // images link are broken */}
-        )}
+          <img src={user.avatar} alt="" className="userAvatar" /> 
+        )} {/* // images link are broken */}
         {user.profile.firstName} {user.profile.lastName}
       </div>
     ))}

@@ -32,13 +32,13 @@ const User = () => {
             <CircularProgress color="secondary" />
           </div>
         ) : users.length > 0 ? (
-          <UserList users={users} setSelectedUser={setSelectedUser} /> {/* // images link are broken */}
-        ) : (
-          <p>No data to show</p>
+          <UserList users={users} setSelectedUser={setSelectedUser} />  ) : (
+          
+            <p>No data to show</p>
         )}
       </div>
       <div>
-        <UserDetails selectedUser={selectedUser} /> {/* // images link are broken */}
+        <UserDetails selectedUser={selectedUser} />
       </div>
     </div>
   );
