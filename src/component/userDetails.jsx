@@ -9,8 +9,8 @@ const UserDetails = ({ selectedUser }) => (
         {selectedUser.avatar ? (
           <div className="loader"><CircularProgress size={30} /></div>
         ) : (
-          <img src={selectedUser.avatar} alt={selectedUser.profile.username} className="avatar" />
-        )}
+          <img src={selectedUser.avatar} alt={selectedUser.profile.username} className="avatar" /> )}      
+          {/* // images link are broken */}
         <h2>{selectedUser.profile.firstName} {selectedUser.profile.lastName}</h2>
         <div className="userInfo">
           <p><strong>Bio:</strong> {selectedUser.Bio}</p>
