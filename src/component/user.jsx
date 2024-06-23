@@ -11,7 +11,7 @@ const User = () => {
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
-    axios.get('https://602e7c2c4410730017c50b9d.mockapi.io/users')
+    axios.get('https://602e7c2c4410730017c50b9d.mockapi.io/users ')
       .then(response => {
         setUsers(response.data);
         setLoading(false);

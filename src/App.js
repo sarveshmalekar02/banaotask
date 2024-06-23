@@ -3,9 +3,9 @@ import User from '../src/component/user'
 
 function App() {
   return (
-    <div className="App">
+     <div className="App">
       <User/>
-    </div>
+     </div>
   );
 }
 
